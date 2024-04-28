@@ -1,0 +1,155 @@
+/* Font Family */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #A1D6E2; Light Gray */
+  }
+  
+  
+  /* Grid Container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Grid Item */
+  .grid-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #F1F1F2; /* White */
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .grid-item p {
+    margin: 5px 0;
+    color: #100f0fe4; /* Gray */
+  }
+  
+  /* Form Container */
+ /* .form-container {
+    margin-bottom: 20px;
+    background-color: #CEE6F2; /* White 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+  }
+  
+  /* Form Label 
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; 
+    font-size: 30px;/* Dark Gray 
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Form Input 
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #0c0202;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  
+  /* Form Button 
+    button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue 
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker Blue
+    text-align: center;
+  } */
+
+  /* Form Container */
+.form-container {
+  margin-bottom: 20px;
+  /* background-color: #CEE6F2; White */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form Label */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Dark Gray */
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form Input */
+input[type="text"] {
+  width: 1500px;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #0c0202;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Form Button Container */
+.button-container {
+  display: flex;
+  justify-content: center; 
+}
+
+/* Form Button */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #391d05; 
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #846625; 
+}
+  
+ 
+  /* Error Message */
+  .error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  

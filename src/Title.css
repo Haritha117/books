@@ -1,0 +1,13 @@
+/*  src/Title.css  */
+.Title {
+    box-sizing: border-box;
+    width: 1500px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #391d05;
+    color: #f4f4f4;
+  }
